@@ -7,11 +7,12 @@ vehicles = [
     {"name": "Ford", "edition": "2021", "reliability": 7},
     {"name": "Mazda", "edition": "2018", "reliability": 8},
     {"name": "BMW", "edition": "2022", "reliability": 6},
+    {"name": "Mercedes", "edition": "2023", "reliability": 9},  # new car added
 ]
 
 print("Vehicle List with Editions and Reliability:")
-print("Name      Edition   Reliability")
-print("--------------------------------")
+print("Name       Edition   Reliability")
+print("---------------------------------")
 
 for v in vehicles:
     print(f"{v['name']:<10} {v['edition']:<8} {v['reliability']}")
