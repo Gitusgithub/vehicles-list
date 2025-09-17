@@ -7,7 +7,7 @@ vehicles = [
     {"name": "Ford", "edition": "2021", "reliability": 7},
     {"name": "Mazda", "edition": "2018", "reliability": 8},
     {"name": "BMW", "edition": "2022", "reliability": 6},
-    {"name": "Mercedes", "edition": "2023", "reliability": 9},  # new car added
+    {"name": "Mercedes", "edition": "2023", "reliability": 9},
 ]
 
 print("Vehicle List with Editions and Reliability:")
